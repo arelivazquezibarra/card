@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+        width: 300px;
+        border-radius: 15px;
+        height: 400px;
+        overflow: hidden;
+    }
+    .foto{
+        display: flex;
+        width: 300px;
+        height: 300px;
+        background-image: url(imagen/images\ \(1\).jpg);
+        background-size: cover;
+        transition: .5s;
+        position: relative;
+    }
+    .foto:hover{
+        width: 300px;
+        height: 600px;
+        cursor: pointer;
+    }
+    .texto1 {
+        display: flex;
+        background-color: aquamarine;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+        font-size: 25px;
+        top: 75%;
+        height: 50px;
+        width: 300px;
+    }
+    .texto2{
+        display: flex;
+        background-color: rgb(56, 244, 244);
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        top: 87.5%;
+        height: 50px;
+        width: 300px;
+    }
+</style>
+<body>
+    <section>
+        <div class="foto">
+            <p>Evanescence</p>
+        </div>
+        <div class="texto1">
+            <p>Amy</p>
+        </div>
+        <div class="texto2">
+            <p>Cantante</p>
+        </div>
+    </section>
+</body>
+</html>
